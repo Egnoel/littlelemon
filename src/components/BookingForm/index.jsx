@@ -56,9 +56,6 @@ const BookingForm = ({ availableTimes, dispatch }) => {
 
   return (
     <section name="reservations" className="booking-form">
-      <LinkR to="/">
-        <img src={home} alt="home" className="booking-home" />
-      </LinkR>
       <div className="bookings-container">
         <h2 className="booking-header">Little Lemon</h2>
         <h2 className="booking-subheader">Chicago</h2>
